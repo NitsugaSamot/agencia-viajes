@@ -22,7 +22,7 @@ h3 {
 }
 
 .btn-success {
-    background-color: #0a318b;
+    background-image: linear-gradient(-223deg,rgb(24, 142, 67) 23%, rgb(25, 75, 43) 47%, rgb(6, 56, 24) 100% ) ;
     border-color: #0a0474;
     padding: .8rem 0;
     text-transform: uppercase;
@@ -80,7 +80,7 @@ p {
     line-height: 2;
 }
 .navegacion {
-    background-color: #2f8b0a;
+    background-image: linear-gradient(-223deg,rgb(24, 142, 67) 23%, rgb(25, 75, 43) 47%, rgb(6, 56, 24) 100% ) ;
     /* display: grid;
     justify-content: center;
     padding: 1rem; */
@@ -97,7 +97,8 @@ footer .nav a,
     color: black;
 }
 .listado-iconos {
-    background-color: rgb(245, 245, 245);
+    background-image: linear-gradient(-223deg,rgb(24, 142, 67) 23%, rgb(25, 75, 43) 47%, rgb(6, 56, 24) 100% ) ;
+    color: wheat;
 }
 .listado-iconos img {
     height: 100px;
@@ -145,7 +146,7 @@ footer .nav a,
     font-size: .9rem;
 }
 i {
-    color: #DC135F;
+    color: #2edc13;
     font-size: 2rem;
 }
 
@@ -166,7 +167,7 @@ i {
 }
 .blockquote-footer {
     text-align: right;
-    color: #DC135F;
+    color: #14370f;
     font-weight: bold;
     margin-top: 1rem;
 }

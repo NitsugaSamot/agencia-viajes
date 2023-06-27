@@ -15,10 +15,10 @@ const paginaInicio = async(req, res) => {
         const resultado = await Promise.all(promiseDB)
 
         res.render('inicio', {
-            pagina: 'Inicio',
-            clase: 'home',
             viajes: resultado[0],
-            testimoniales: resultado[1]
+            testimoniales: resultado[1],
+            clase: 'home',
+            pagina: 'inicio'
         })
 
     } catch (error) {
