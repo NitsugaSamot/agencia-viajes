@@ -1,0 +1,33 @@
+extends ./layout/index
+
+block slider
+    .slider 
+        h1 Viví tu Destino
+        en hora de la aventura
+
+block contenido
+    main.container.mt-5 
+        h2.text-center.mb-5 Sobre Nosotros
+        .row.mb-5
+            .col-md-6 
+                p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, quo minus perferendis hic dolore nisi eligendi, error reiciendis magnam natus aperiam qui recusandae autem distinctio obcaecati. Cum ab possimus ducimus!
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat omnis, a corrupti quidem totam suscipit assumenda consectetur asperiores! Laborum adipisci qui consectetur voluptatibus soluta odio reiciendis quibusdam aliquam neque laboriosam.
+
+            .col-md-6
+                img(src='/img/inicio_nosotros.jpg', alt='Imagen Nosotros', class='img_fluid')
+        include ./layout/bloque_viajes.pug
+
+    .descuento 
+        .container 
+            .row 
+                .col-md-6 
+                    .contenido 
+                        h3 5% de Descuento 
+                        a.titulo Viaje a Canada 
+                        a.fecha 20 de Noviembre de 2023 - 28 de Noviembre de 2023
+                        p.precio $2,500 USD
+
+
+    .container 
+        h2.mt-5.text-center Testimoniales
+            include ./layout/testimoniales
